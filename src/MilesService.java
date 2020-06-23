@@ -1,9 +1,9 @@
 public class MilesService {
-    public long calculate(int costinKopecks) {
-        long miles = costinKopecks / 100 / 20;
+    public int calculate(int costinKopecks) {
+        int miles = costinKopecks / 100 / 20;
 
         return miles;
     }
 
-
 }
+
